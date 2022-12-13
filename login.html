@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="css/style.css" rel="stylesheet">
+<script type="text/javascript" src="js/lk.js"></script>
+<title>登陆</title>
+</head>
+ 
+<body>
+<div class="nav">
+    <img src="img/0.jpg">
+    <span class="title">我的博客</span>
+    <span class="spacer"></span>
+</div>
+
+<div id="loginDiv">
+    <form onsubmit="return message9()" action="index.html" method="post" target="_self">
+        <h1>登陆</h1>
+        <table>
+        <tr>
+        <td>用户名</td>
+        <td><input id="username" type="text" autofocus required><label id="name_trip"></label></td>
+        </tr>
+
+        <tr>
+        <td>密码</td>
+        <td><input id="password" type="password" required><label id="password_trip"></label></td>
+        </tr>
+        </table>    
+        <div style="text-align: center;margin-top: 30px;">
+            <input type="submit" class="button"  value="登陆">
+            <input type="button" class="button" onclick="message6()" value="注册">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+

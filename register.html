@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="css/style.css" rel="stylesheet">
+<script type="text/javascript" src="js/ck.js"></script>
+
+<title>注册</title>
+</head>
+
+<body>
+<div class="nav">
+    <img src="img/0.jpg">
+    <span class="title">我的博客</span>
+    <span class="spacer"></span>
+</div>
+
+<div id="loginDiv">
+    <form onsubmit="return checkForm()" action="login.html" method="post" target="_self">
+       <h1>注册</h1>
+        <table>
+        <tr>    
+            <td>用户名</td>
+            <td><input id="username" type="text" oninput="message1()" autofocus required><label id="name_trip"></label></td>
+        </tr>
+        
+        <tr>   
+            <td>手机号码</td>
+            <td><input id="phone" type="text" oninput="message5()" required><label id="phone_trip"></label></td>
+        </tr> 
+
+        <tr>   
+            <td>邮箱</td>
+            <td><input id="emial" type="text" oninput="message4()" required><label id="emial_trip"></label></td>
+        </tr> 
+
+        <tr>   
+            <td>用户密码</td>
+            <td><input id="password" type="password" oninput="message2()" required><label id="password_trip"></label></td>
+        </tr> 
+
+         <tr>
+             <td>确认密码</td>
+             <td><input id="spassword" type="password" oninput="message3()" required><label id="spassword_trip"></label></td>
+         </tr>
+
+        </table>
+            
+        <p style="text-align: center;">
+           <input type="submit" class="button" value="注册">
+        </p>
+    </form>
+</div>
+</body>
+</html>
+
